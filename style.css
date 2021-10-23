@@ -1,0 +1,57 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image:url(./assets/p15227_k_h9_ab.jpg) ;
+}
+header h1 {
+    color: solid gold;
+    font-size: larger;
+    text-align: center;
+}
+header .one {
+    background:none;
+    color: gold;
+    text-align: center;
+    width: 500px;
+    height: 45px;
+    font-size: 30px;
+    margin-left: 490px;
+    animation-name: we;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    touch-action:cross-slide-x
+}
+@keyframes we {
+    0% {transform:scale(1);
+        
+    }
+    25% {transform: scale(1.2);
+        
+    }
+    50% {transform: scale(1.3);
+    }
+    75% {transform: scale(1.2);
+    }
+    100% {transform:scale(1);
+    }
+}
+header .para h2 {
+    color: rgb(143, 86, 86);
+    font-size:50px;
+    margin-left: 90px;
+}
+.talmud {
+    color: white;
+    font-family: 'Lobster', cursive;
+    margin-left: 100px;
+}
+.talmud .jewish {
+    font-family: cursive;
+    font-size: 25px;
+}
+.wood  img {
+    margin-top: 50px;
+    width: 400px;
+    height: 320px;
+}
